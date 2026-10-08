@@ -20,7 +20,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
 body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; text-align: left; -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-decoration: none; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
-.container { width: 100%; max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+.container { width: 100%; max-width: 800px; margin: 0; padding: 40px 20px; }
 .skip-link { position: absolute; top: 0.75rem; left: var(--content-padding); z-index: 10; transform: translateY(-160%); padding: 0.55rem 0.8rem; background: var(--color-accent); color: var(--color-bg); }
 .skip-link:focus { transform: translateY(0); }
 
@@ -59,11 +59,7 @@ h3 { margin-bottom: 0.45rem; font-size: 1.05rem; font-weight: 600; }
 .stack-group h3 { color: var(--color-muted); font-size: 0.78rem; letter-spacing: 0.04em; text-transform: uppercase; }
 .stack-group .tag-list { margin-top: 0; }
 .project-list { display: grid; grid-template-columns: 1fr; gap: 0.8rem; }
-.project-card { padding: 1.1rem; border: 1px solid var(--color-line); background: var(--color-surface); }
-.project-card h3 { margin-bottom: 0.4rem; }
-.project-card > p:not(.project-number) { margin-bottom: 0.65rem; color: var(--color-muted); }
-.project-number { margin-bottom: 0.45rem; color: var(--color-accent); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
-.project-card .tag-list { margin-top: 0.7rem; }
+.project-card { padding: 1rem 0; border-bottom: 1px solid var(--color-line); }
 .contact-list { display: grid; grid-template-columns: 1fr; padding: 0; margin: 0; list-style: none; }
 .contact-list li { border-top: 1px solid var(--color-line); }
 .contact-link { min-height: 58px; display: grid; grid-template-columns: 80px minmax(0, 1fr) auto; align-items: center; gap: 0.75rem; transition: color 150ms ease; }
@@ -95,4 +91,5 @@ h3 { margin-bottom: 0.45rem; font-size: 1.05rem; font-weight: 600; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
+
 
