@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101110">
-  <meta name="description" content="Portfólio de Matheus.dev, desenvolvedor de jogos com foco em C# e Unity.">
-  <title>Matheus.dev — C# e Unity</title>
+  <meta name="theme-color" content="#0b0f19">
+  <meta name="description" content="Portfólio de Matheus.dev. Protótipos de jogos feitos com C# e Unity.">
+  <title>Matheus.dev</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -30,103 +30,92 @@
 
   <main id="conteudo">
     <section class="hero container" id="inicio" aria-labelledby="hero-title">
-      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Desenvolvimento de jogos · C# / Unity</p>
+      <p class="eyebrow">Unity 6 <span aria-hidden="true">·</span> C#</p>
       <h1 id="hero-title">Desenvolvedor Unity &amp; C#</h1>
-      <div class="hero-bottom">
-        <p>Desenvolvo projetos em C# e Unity, com atenção à estrutura dos sistemas e à legibilidade do código.</p>
+      <div class="hero-copy">
+        <p>Estudo programação com C# e Unity. Faço protótipos de jogos e programo mecânicas.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#projetos">Ver Projetos</a>
+          <a class="button button-primary" href="#projetos">Ver projetos</a>
           <a class="button button-secondary" href="https://github.com/matheusmoreira88" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-index" aria-hidden="true"><span>01</span><span class="index-line"></span><span>03</span></div>
     </section>
 
     <section class="about section-shell" id="sobre" aria-labelledby="about-title">
-      <div class="container section-grid">
-        <div class="section-heading">
-          <p class="eyebrow">01 — Sobre mim</p>
-          <h2 id="about-title">Desenvolvimento<br><span>na prática.</span></h2>
-        </div>
+      <div class="container">
+        <p class="eyebrow">01 — Sobre</p>
+        <h2 id="about-title">Sobre mim</h2>
         <div class="about-copy">
-          <p class="lead">Estudo desenvolvimento de jogos há dois anos, com prática em C# e Unity.</p>
-          <p>Meu foco é entender a arquitetura de cada projeto, organizar sistemas e manter o código claro.</p>
-          <p>Aprendo construindo e revisando projetos.</p>
-          <div class="skill-list" aria-label="Áreas de foco">
-            <a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a>
-            <a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a>
-            <span>Arquitetura de código</span>
-            <span>Aprendizado prático</span>
+          <p>Tenho 13 anos e estudo programação há dois. Uso C# e Unity para criar protótipos e testar ideias de jogo.</p>
+          <p>Nos meus projetos, testo controles, mecânicas e sistemas simples.</p>
+        </div>
+        <div class="skill-list" aria-label="Conhecimentos">
+          <a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a>
+          <a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a>
+          <span>Lógica de software</span>
+          <span>Protótipos</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stack section-shell" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <p class="eyebrow">02 — Stack</p>
+        <h2 id="stack-title">Tecnologias</h2>
+        <div class="stack-list">
+          <div class="stack-group">
+            <h3>Linguagem e engine</h3>
+            <ul><li>Unity 6</li><li>C#</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Sistemas</h3>
+            <ul><li>ScriptableObjects</li><li>State Machines</li><li>Input System</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Ferramentas</h3>
+            <ul><li>Git</li><li>VS Code</li></ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="stack container" id="stack" aria-labelledby="stack-title">
-      <div class="stack-heading">
-        <p class="eyebrow">02 — Tecnologias / Stack</p>
-        <h2 id="stack-title">Ferramentas e fundamentos<span>.</span></h2>
-      </div>
-      <div class="stack-grid">
-        <div class="stack-group">
-          <h3>Linguagem &amp; Engine</h3>
-          <ul><li>Unity 6</li><li>C#</li></ul>
+    <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="eyebrow">03 — Projetos</p>
+        <h2 id="projects-title">Projetos</h2>
+        <p class="section-note">Alguns protótipos em que estou trabalhando.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one" aria-hidden="true"><span class="visual-mark">01</span><span class="visual-shape"></span></div>
+            <h3>Protótipo 01</h3>
+            <p>Testes de mecânicas em Unity.</p>
+            <div class="project-links"><a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a><a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two" aria-hidden="true"><span class="visual-mark">02</span><span class="visual-shape"></span></div>
+            <h3>Protótipo 02</h3>
+            <p>Controles e movimento em C#.</p>
+            <div class="project-links"><a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a><a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-three" aria-hidden="true"><span class="visual-mark">03</span><span class="visual-shape"></span></div>
+            <h3>Protótipo 03</h3>
+            <p>Um projeto pequeno para praticar lógica.</p>
+            <div class="project-links"><a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a><a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a></div>
+          </article>
         </div>
-        <div class="stack-group">
-          <h3>Arquitetura</h3>
-          <ul><li>ScriptableObjects</li><li>State Machines</li><li>Input System</li></ul>
-        </div>
-        <div class="stack-group">
-          <h3>Ferramentas</h3>
-          <ul><li>Git</li><li>VS Code</li></ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects container" id="projetos" aria-labelledby="projects-title">
-      <div class="section-topline">
-        <div>
-          <p class="eyebrow">03 — Projetos</p>
-          <h2 id="projects-title">Projetos<span>.</span></h2>
-        </div>
-        <p class="section-note">Estudos e protótipos em andamento.</p>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-visual visual-one" aria-hidden="true"><span class="visual-mark">01</span><span class="visual-shape"></span></div>
-          <div class="project-meta"><span>Em desenvolvimento</span><span>01 / 03</span></div>
-          <h3>Protótipo 01</h3>
-          <p>Estudo de mecânicas e sistemas de jogo.</p>
-          <div class="project-links"><a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a><a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a></div>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-two" aria-hidden="true"><span class="visual-mark">02</span><span class="visual-shape"></span></div>
-          <div class="project-meta"><span>Em desenvolvimento</span><span>02 / 03</span></div>
-          <h3>Protótipo 02</h3>
-          <p>Experimentos com lógica e interação.</p>
-          <div class="project-links"><a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a><a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a></div>
-        </article>
-        <article class="project-card">
-          <div class="project-visual visual-three" aria-hidden="true"><span class="visual-mark">03</span><span class="visual-shape"></span></div>
-          <div class="project-meta"><span>Em desenvolvimento</span><span>03 / 03</span></div>
-          <h3>Protótipo 03</h3>
-          <p>Projeto de estudo em Unity.</p>
-          <div class="project-links"><a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C#</a><a href="https://docs.unity3d.com/" target="_blank" rel="noopener noreferrer">Unity</a></div>
-        </article>
       </div>
     </section>
 
     <section class="contact section-shell" id="contato" aria-labelledby="contact-title">
-      <div class="container contact-inner">
-        <div class="contact-intro">
-          <p class="eyebrow">04 — Contato</p>
-          <h2 id="contact-title">Contato</h2>
-          <p class="contact-note">Canais para falar sobre projetos e desenvolvimento.</p>
-        </div>
+      <div class="container">
+        <p class="eyebrow">04 — Contato</p>
+        <h2 id="contact-title">Contato</h2>
+        <p class="contact-note">Fala comigo.</p>
         <ul class="contact-list">
-          <li><a class="contact-link" href="mailto:matheusmoreiradossantos88@gmail.com"><span class="contact-type">E-mail</span><span class="contact-value">matheusmoreiradossantos88@gmail.com</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="contact-link" href="https://github.com/matheusmoreira88" target="_blank" rel="noopener noreferrer"><span class="contact-type">GitHub</span><span class="contact-value">matheusmoreira88</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="contact-link" href="https://discord.com/users/1475628656939241615" target="_blank" rel="noopener noreferrer"><span class="contact-type">Discord</span><span class="contact-value">@l4rk1</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="contact-link" href="mailto:matheusmoreiradossantos88@gmail.com"><span>E-mail</span><span class="contact-value">matheusmoreiradossantos88@gmail.com</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="contact-link" href="https://github.com/matheusmoreira88" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span class="contact-value">matheusmoreira88</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="contact-link" href="https://discord.com/users/1475628656939241615" target="_blank" rel="noopener noreferrer"><span>Discord</span><span class="contact-value">@l4rk1</span><span class="contact-arrow" aria-hidden="true">↗</span></a></li>
         </ul>
       </div>
     </section>
@@ -135,11 +124,11 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <a class="wordmark" href="#inicio">Matheus<span>.dev</span></a>
-      <p>C# · Unity · Desenvolvimento de jogos</p>
+      <p>C# · Unity · Jogos</p>
       <nav class="footer-links" aria-label="Contactos">
         <a href="https://github.com/matheusmoreira88" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
         <a href="mailto:matheusmoreiradossantos88@gmail.com">E-mail <span aria-hidden="true">↗</span></a>
-        <a href="https://discord.com/users/1475628656939241615" target="_blank" rel="noopener noreferrer">Discord @l4rk1 <span aria-hidden="true">↗</span></a>
+        <a href="https://discord.com/users/1475628656939241615" target="_blank" rel="noopener noreferrer">Discord <span aria-hidden="true">↗</span></a>
       </nav>
       <small>© <span id="current-year">2026</span> Matheus.dev</small>
     </div>
